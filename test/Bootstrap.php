@@ -1,6 +1,6 @@
 <?php
 
-namespace ZFBrasil\ChecksumTest;
+namespace ZFBrasil\Checksumtest;
 
 use Zend\Loader\AutoloaderFactory;
 use RuntimeException;
@@ -56,6 +56,7 @@ class Bootstrap
             if ($previousDir === $dir) return false;
             $previousDir = $dir;
         }
+
         return $dir . '/' . $path;
     }
 }
