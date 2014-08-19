@@ -19,7 +19,11 @@
     },
     "autoload": {
         "psr-4": {
-            "ZFBrasil\\Checksum\\": "src/",
+            "ZFBrasil\\Checksum\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
             "ZFBrasil\\ChecksumTest\\": "test/"
         }
     }
