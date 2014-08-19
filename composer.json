@@ -1,0 +1,25 @@
+{
+    "name": "zfbrasil/checksum",
+    "description": "Provide common brazilian checksum features",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fabiocarneiro",
+            "email": "fahecs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "dev-master",
+        "zendframework/zendframework": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZFBrasil\\Checksum\\": "src/",
+            "ZFBrasil\\ChecksumTest\\": "test/"
+        }
+    }
+}
